@@ -29,7 +29,13 @@ const Home = () => {
       setLoading(false);
     };
 
-    
+    useEffect(() => {
+      fetchMovies(1);
+    }, []);
+  
+    console.log(state);
+
+
   
     return <div>Home Page</div>;
   };
