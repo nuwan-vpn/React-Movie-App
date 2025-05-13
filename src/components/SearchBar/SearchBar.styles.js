@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   height: 100px;
   background: var(--darkGrey);
   padding: 0 20px;
-`;
+`; 
 
 export const Content = styled.div`
   position: relative;
